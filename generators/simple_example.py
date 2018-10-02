@@ -1,12 +1,9 @@
 
 def mulitples_of_five():
     i = 5
-    while True:
+    while i <= 100:
         yield i
         i += 5
 
-
-numbers = mulitples_of_five()
-
-for i in range(10):
-    print(next(numbers))
+for i in mulitples_of_five():
+    print(i)
