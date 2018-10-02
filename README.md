@@ -1,4 +1,4 @@
-### Advanced concepts in Python
+### Advanced Python concepts
 
 #### Generators
 
